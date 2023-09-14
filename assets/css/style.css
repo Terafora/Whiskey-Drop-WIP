@@ -23,6 +23,44 @@ body {
     color: #f05f40;
 }
 
+/* Promotion Section*/
+
+.site-wide-alert {
+    width: 100%;
+    margin: 0;
+    z-index: 50;
+}
+
+/* Navbar Section */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar{
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
 .alert-container {
 
 }
@@ -56,6 +94,7 @@ body {
     bottom: 0;
     left: 0;
     color:#f05f40;
+    font-size: 0.5rem;
 }
 
 .quotes-container {
