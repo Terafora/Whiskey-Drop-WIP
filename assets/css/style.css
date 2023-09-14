@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* General Styles */
+
 .block-divider {
     width: 75px;
     background-color: #f5f5f5;
@@ -20,6 +22,8 @@ body {
 .alert-container {
 
 }
+
+/* Callout Section */
 
 .callout-container {
     height: 100vh;
@@ -69,4 +73,26 @@ body {
     color: #fff;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: #fff;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
 }
