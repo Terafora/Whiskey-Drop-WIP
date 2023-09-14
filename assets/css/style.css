@@ -19,6 +19,10 @@ body {
     width: 35px;
 }
 
+.text--red {
+    color: #f05f40;
+}
+
 .alert-container {
 
 }
@@ -45,6 +49,13 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color:#f05f40;
 }
 
 .quotes-container {
